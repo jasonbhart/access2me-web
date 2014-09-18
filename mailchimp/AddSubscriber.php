@@ -1,6 +1,8 @@
 <?php
 include_once 'MailChimp.php';
 
+print_r($POST);
+
 if(isset($POST['email'])) {
     if(!isset($POST['fname'])) {
         $POST['fname'] = "";
