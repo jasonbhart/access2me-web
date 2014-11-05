@@ -21,5 +21,6 @@ if(isset($_POST['email'])) {
         'send_welcome'      => false,
     ));
 
-    print_r($result);
+    //print_r($result);
+    echo "Thank you for your interest in Access2.ME. We will be in touch shortly.";
 }
